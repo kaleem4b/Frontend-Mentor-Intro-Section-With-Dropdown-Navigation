@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Links -->
+    <script
+      src="https://kit.fontawesome.com/50d7e683bd.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./CSS/main.css" />
+    <script defer src="./JS/main.js"></script>
+    <title>Frontend Mentor | Intro section with dropdown navigation</title>
+  </head>
+  <body>
+    <!-- Overlay -->
+    <div class="overlay"></div>
+
+    <!-- Side nav bar -->
+    <div class="side-nav-bar">
+      <span class="side-nav-close"> &#9587;</span>
+      <div class="side-nav-dropdown side-nav-drop-1">
+        <a href="#" class="features-link"
+          >Features <i class="fa-solid fa-chevron-down"></i
+        ></a>
+        <div class="side-nav-extended-box extended-box-1">
+          <div class="droplink-content">
+            <a href="#"><img src="./images/icon-todo.svg" /></a>
+            <a href="#">Todo List</a>
+          </div>
+          <div class="droplink-content">
+            <a href="#"><img src="./images/icon-calendar.svg" /></a>
+            <a href="#">Calender</a>
+          </div>
+          <div class="droplink-content">
+            <a href="#"><img src="./images/icon-reminders.svg" /></a>
+            <a href="#">Reminders</a>
+          </div>
+          <div class="droplink-content">
+            <a href="#"><img src="./images/icon-planning.svg" /></a>
+            <a href="#">Planning</a>
+          </div>
+        </div>
+      </div>
+      <div class="side-nav-dropdown side-nav-drop-2">
+        <a href="#" class="company-link"
+          >Company <i class="fa-solid fa-chevron-down"></i
+        ></a>
+        <div class="side-nav-extended-box extended-box-2">
+          <a href="#">History</a>
+          <a href="#">Our Team</a>
+          <a href="#">Blog</a>
+        </div>
+      </div>
+
+      <div><a href="#">Careers</a></div>
+      <div><a href="#">About</a></div>
+      <div class="side-nav-buttons">
+        <button><a href="#">Login</a></button>
+        <button><a href="#">Register</a></button>
+      </div>
+    </div>
+    <div class="nav-bar">
+      <div class="nav-links">
+        <h1>snap</h1>
+        <div class="nav-dropdown drop1" id="dropBox1">
+          <a href="#">Features <i class="fa-solid fa-chevron-down"></i></a>
+          <div class="nav-link-content" id="popUpBox1">
+            <div class="droplink-content">
+              <a href="#"><img src="./images/icon-todo.svg" /></a>
+              <a href="#">Todo List</a>
+            </div>
+            <div class="droplink-content">
+              <a href="#"><img src="./images/icon-calendar.svg" /></a>
+              <a href="#">Calender</a>
+            </div>
+            <div class="droplink-content">
+              <a href="#"><img src="./images/icon-reminders.svg" /></a>
+              <a href="#">Reminders</a>
+            </div>
+            <div class="droplink-content">
+              <a href="#"><img src="./images/icon-planning.svg" /></a>
+              <a href="#">Planning</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="nav-dropdown drop2" id="dropBox2">
+          <a href="#">Company <i class="fa-solid fa-chevron-down"></i> </a>
+          <div class="nav-link-content" id="popUpBox2">
+            <a href="#">History</a>
+            <a href="#">Our Team</a>
+            <a href="#">Blog</a>
+          </div>
+        </div>
+
+        <div><a href="#">Careers</a></div>
+        <div><a href="#">About</a></div>
+      </div>
+      <div class="nav-buttons" id="normalNavButtons">
+        <button><a href="#">Login</a></button>
+        <button><a href="#">Register</a></button>
+      </div>
+
+      <!-- Special -->
+      <i class="fa-solid fa-bars"></i>
+    </div>
+
+    <!-- Hero section -->
+    <div class="main-hero">
+      <div class="hero-description">
+        <h1>
+          Make <br class="hero-break" />
+          remote work
+        </h1>
+        <p>
+          Get your team in sync, no matter your location. Streamline processes,
+          create team rituals, and watch productivity soar.
+        </p>
+        <button>Learn more</button>
+        <div class="hero-companies">
+          <img src="./images/client-databiz.svg" />
+          <img src="./images/client-audiophile.svg" />
+          <img src="./images/client-meet.svg" />
+          <img src="./images/client-maker.svg" />
+        </div>
+      </div>
+      <div class="hero-img">
+        <img class="desktop-image" src="./images/image-hero-desktop.png" />
+      </div>
+    </div>
+  </body>
+</html>
