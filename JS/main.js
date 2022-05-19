@@ -106,25 +106,9 @@ companyLink.addEventListener("click", function () {
 const heroImageToChange = document.getElementsByClassName("desktop-image")[0];
 // console.log(heroImageToChange);
 
-if (window.innerWidth >= 700) {
+if (window.innerWidth <= 700) {
   heroImageToChange.src = " ";
-  heroImageToChange.src = "../images/image-hero-mobile.png";
+  heroImageToChange.src = "./images/image-hero-mobile.png";
 }
 
-window.onresize = function () {
-  //   window.location.reload();
-  if (window.innerWidth <= 700) {
-    heroImageToChange.src = " ";
-    heroImageToChange.src = "../images/image-hero-mobile.png";
-    return;
-  } else {
-    heroImageToChange.src = " ";
-    heroImageToChange.src = "../images/image-hero-desktop.png";
-  }
 
-  //   if (window.innerWidth >= 700) {
-  //     heroImageToChange.src = " ";
-  //     heroImageToChange.src = "../images/image-hero-desktop.png";
-  //     return;
-  //   }
-};
