@@ -16,6 +16,10 @@ body {
   background-color: var(--Special-White);
 }
 
+button {
+  cursor: pointer;
+}
+
 /* - Font size (paragraph): 18px */
 /* //////////////////// */
 
